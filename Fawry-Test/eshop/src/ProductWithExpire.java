@@ -7,5 +7,8 @@ public class ProductWithExpire extends Product{
         super(name, price, quantity, weight , shipIt);
         this.expireDate=expireDate;
     }
+    public LocalDate getExpireDate(){
+        return expireDate;
+    }
 
 }

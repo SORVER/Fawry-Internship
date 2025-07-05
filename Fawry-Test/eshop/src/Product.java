@@ -31,6 +31,13 @@ public class Product {
         return price;
     }
 
+    public double getWeight(){
+        return weight;
+    }
+    public boolean isShipIt(){
+        return shipIt;
+    }
+
     // setters
     public void setName(String name){
         this.name = name;
